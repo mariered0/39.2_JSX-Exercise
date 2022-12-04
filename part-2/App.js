@@ -1,16 +1,19 @@
 const App = () => (
     <div>
         <Tweet 
-            username="Marie"
-            date="12/3/2022"
+            name="Marie"
+            username="marie"
+            date={new Date().toDateString()}
             message="Hello" />
         <Tweet 
-            username="Steven"
-            date="12/3/2022"
+            name="Steven"
+            username="steven"
+            date={new Date().toDateString()}
             message="I'm going to Mexico!" />
         <Tweet 
-            username="Marie"
-            date="12/3/2022"
+            name="Marie"
+            username="marie"
+            date={new Date().toDateString()}
             message="So excited!" />
 
     </div>
